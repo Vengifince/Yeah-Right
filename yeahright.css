@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300;400;700&family=Nunito:wght@200;300;400;600&display=swap');
 
 .yeahright { 
-  width: 425px; 
+  width: 445px; 
   border-radius: 30px;
-  background-color:#eee;
   overflow:hidden;
   display:flex;
   flex-flow:row wrap; 
-  margin: 20px auto;
+  margin: 30px auto;
+  background:#f9f9f9;
+  border:1px solid #ebebeb;
+  box-shadow: 3px 2px 0px #ebebeb;
+  
 }
 .yeahright-Sidebar { 
   width:110px; 
@@ -46,8 +49,9 @@
 .yeahright-Date span {
   font-family: 'Bellota Text', cursive;
   font-weight: 800;
-  font-size: 38px;
+  font-size: 35px;
 padding-top: 10px;
+padding: 10px;
 color: #fff;
  text-outline: 1px solid #000;
     -webkit-text-stroke-width: 1px;
@@ -68,28 +72,27 @@ color: #fff;
 }
 .yeahright-Body i { 
   color: var(--accent);
-  font-weight: 400;
+  font-weight: 600;
   border-bottom: 2px solid var(--line);
 text-decoration:none;
 padding: 0px 2px;
   }
   
 .yeahright-Body div:first-child {
-  padding: 25px;
   padding-bottom: 15px;
   padding-top: 15px;
+  padding-left: 50px;
 font-family: 'Nunito', sans-serif;
 font-size: 15px;
-font-weight: 400;
-line-height: 25px;
+line-height: 24px;
 text-align: justify;
 border-width: 1px;
-  color:#6a6a6a;
+  color:#666666;
   }
 
 .yeahright-endnotes {
   padding-bottom: 25px;
-  padding-left: 15px;
+  padding-left: 35px;
   font:400 14px 'Nunito';
   text-align:justify;
   color:#6a6a6a;
@@ -125,3 +128,4 @@ border-radius: 100px;
     height: 1px;
     border: none;
     background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, var(--line)));
+  opacity: .50;
